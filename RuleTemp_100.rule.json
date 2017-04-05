@@ -6,7 +6,7 @@
         "type" : "net.ahm.rulesapp.templates.utils.TypeDescription",
         "typeDescriptionPredicates" : [ "NOT_VOID", "OBJECT" ]
       },
-      "variableName" : "$blahCount",
+      "variableName" : "$testBy_kumar",
       "attribute" : null,
       "expressionReturnTypeDescription" : {
         "expectedContainedType" : null,
@@ -132,7 +132,7 @@
   "effectiveDate" : null,
   "expirationDate" : null,
   "ruleDescription" : "This is a testing rule.",
-  "ruleId" : "8cf04cb9-e1d2-46ea-b086-e24c75ed7af0",
+  "ruleId" : "8a999d0f-3ae3-4348-b3cc-2ecbc6f08839",
   "ruleName" : "testing rule",
   "salience" : 0,
   "templateDescription" : "Standard Rule Template",
