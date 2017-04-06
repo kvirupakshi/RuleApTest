@@ -6,7 +6,7 @@
         "type" : "net.ahm.rulesapp.templates.utils.TypeDescription",
         "typeDescriptionPredicates" : [ "NOT_VOID", "OBJECT" ]
       },
-      "variableName" : "$testBy_kumar12345",
+      "variableName" : "$taerstBsy_kumar12345",
       "attribute" : null,
       "expressionReturnTypeDescription" : {
         "expectedContainedType" : null,
