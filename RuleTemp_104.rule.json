@@ -1,0 +1,18 @@
+{
+  "actions" : [ ],
+  "conditions" : [ {
+    "commentText" : "abc",
+    "templateDescription" : "A Comment",
+    "templateId" : "4946700504524596248",
+    "templateName" : "CommentTemplate"
+  } ],
+  "effectiveDate" : "2017-04-11T13:30:00.000+0530",
+  "expirationDate" : "2017-04-13T13:30:00.000+0530",
+  "ruleDescription" : "ui test",
+  "ruleId" : "0f7e6fc7-ba7c-4e64-a6af-c3442c5d1bc5",
+  "ruleName" : "UI_test_1",
+  "salience" : 5,
+  "templateDescription" : "Standard Rule Template",
+  "templateId" : "1729393753546744775",
+  "templateName" : "DefaultStandardRuleTemplate"
+}
