@@ -1,140 +1,17 @@
 {
-  "actions" : [ {
-    "variableExpression" : {
-      "typeDescription" : {
-        "expectedContainedType" : null,
-        "type" : "net.ahm.rulesapp.templates.utils.TypeDescription",
-        "typeDescriptionPredicates" : [ "NOT_VOID", "OBJECT" ]
-      },
-      "variableName" : "$blahCount",
-      "attribute" : null,
-      "expressionReturnTypeDescription" : {
-        "expectedContainedType" : null,
-        "type" : "net.ahm.rulesapp.templates.utils.TypeDescription",
-        "typeDescriptionPredicates" : [ "NOT_VOID", "OBJECT" ]
-      },
-      "templateDescription" : "A Named Variable Literal Expression",
-      "templateId" : "-3287558969478829929",
-      "templateName" : "NamedVariableLiteralFragmentTemplate"
-    },
-    "attributeUpdateFragments" : [ {
-      "attribute" : {
-        "attributeName" : "size",
-        "attributeType" : {
-          "expectedContainedType" : null,
-          "type" : "int",
-          "typeDescriptionPredicates" : [ "INTEGER", "NOT_VOID", "NUMBER", "ORDERABLE" ]
-        },
-        "subAttribute" : null,
-        "expressionReturnTypeDescription" : {
-          "expectedContainedType" : null,
-          "type" : "int",
-          "typeDescriptionPredicates" : [ "INTEGER", "NOT_VOID", "NUMBER", "ORDERABLE" ]
-        },
-        "templateDescription" : "An Attribute of a Class",
-        "templateId" : "6557384901673785349",
-        "templateName" : "AttributeFragmentTemplate"
-      },
-      "value" : {
-        "expressionReturnTypeDescription" : {
-          "expectedContainedType" : null,
-          "type" : "java.lang.Integer",
-          "typeDescriptionPredicates" : [ "INTEGER", "NOT_VOID", "NUMBER", "OBJECT", "ORDERABLE" ]
-        },
-        "templateDescription" : "Integer Literal Value",
-        "templateId" : "1727346305540410402",
-        "templateName" : "IntegerLiteralFragmentTemplate",
-        "value" : 100
-      },
-      "templateDescription" : "To set the value of an attribute",
-      "templateId" : "8793085989479993492",
-      "templateName" : "AttributeSetterFragmentTemplate"
-    } ],
-    "templateDescription" : "Update the attributes of a class",
-    "templateId" : "1120126270354240109",
-    "templateName" : "AnyClassAttributeUpdaterTemplate"
-  } ],
+  "actions" : [ ],
   "conditions" : [ {
-    "expressionReturnTypeDescription" : {
-      "expectedContainedType" : null,
-      "type" : "java.util.Set",
-      "typeDescriptionPredicates" : [ "COLLECTION", "NOT_VOID", "OBJECT" ]
-    },
-    "multipleAttributeEvaluationFragments" : {
-      "attributeEvaluationFragments" : [ {
-        "attribute" : {
-          "attributeName" : "size",
-          "attributeType" : {
-            "expectedContainedType" : null,
-            "type" : "int",
-            "typeDescriptionPredicates" : [ "INTEGER", "NOT_VOID", "NUMBER", "ORDERABLE" ]
-          },
-          "subAttribute" : null,
-          "expressionReturnTypeDescription" : {
-            "expectedContainedType" : null,
-            "type" : "int",
-            "typeDescriptionPredicates" : [ "INTEGER", "NOT_VOID", "NUMBER", "ORDERABLE" ]
-          },
-          "templateDescription" : "An Attribute of a Class",
-          "templateId" : "6557384901673785349",
-          "templateName" : "AttributeFragmentTemplate"
-        },
-        "attributeValue" : {
-          "expressionReturnTypeDescription" : {
-            "expectedContainedType" : null,
-            "type" : "java.lang.Integer",
-            "typeDescriptionPredicates" : [ "INTEGER", "NOT_VOID", "NUMBER", "OBJECT", "ORDERABLE" ]
-          },
-          "templateDescription" : "Integer Literal Value",
-          "templateId" : "1727346305540410402",
-          "templateName" : "IntegerLiteralFragmentTemplate",
-          "value" : 18
-        },
-        "expressionReturnTypeDescription" : {
-          "expectedContainedType" : null,
-          "type" : "int",
-          "typeDescriptionPredicates" : [ "INTEGER", "NOT_VOID", "NUMBER", "ORDERABLE" ]
-        },
-        "operator" : "GREATER_THAN",
-        "templateDescription" : "Any Attribute Single Comparison",
-        "templateId" : "-6139426208572884041",
-        "templateName" : "AnyAttributeSingleComparisonFragmentTemplate",
-        "variableExpression" : {
-          "typeDescription" : {
-            "expectedContainedType" : null,
-            "type" : "net.ahm.rulesapp.templates.utils.TypeDescription",
-            "typeDescriptionPredicates" : [ "NOT_VOID", "OBJECT" ]
-          },
-          "variableName" : "$blahCount",
-          "attribute" : null,
-          "expressionReturnTypeDescription" : {
-            "expectedContainedType" : null,
-            "type" : "net.ahm.rulesapp.templates.utils.TypeDescription",
-            "typeDescriptionPredicates" : [ "NOT_VOID", "OBJECT" ]
-          },
-          "templateDescription" : "A Named Variable Literal Expression",
-          "templateId" : "-3287558969478829929",
-          "templateName" : "NamedVariableLiteralFragmentTemplate"
-        },
-        "variableName" : "$blahCount"
-      } ],
-      "connector" : "COMMA",
-      "templateDescription" : "Multiple Attribute Evaluation Group",
-      "templateId" : "-4204744345626713448",
-      "templateName" : "MultipleAttributeEvaluationFragmentTemplate"
-    },
-    "templateDescription" : "Evaluate attributes of a class",
-    "templateId" : "2665627018978768676",
-    "templateName" : "AnyClassMultipleAttributeEvaluationFragmentTemplate",
-    "variableExpression" : null,
-    "variableName" : null
+    "commentText" : "abc",
+    "templateDescription" : "A Comment",
+    "templateId" : "4946700504524596248",
+    "templateName" : "CommentTemplate"
   } ],
-  "effectiveDate" : null,
-  "expirationDate" : null,
-  "ruleDescription" : "This is a testing rule.",
-  "ruleId" : "0e0ac134-4270-4ecf-9c18-f2c66ae69b4b",
-  "ruleName" : "testing rule",
-  "salience" : 0,
+  "effectiveDate" : "2017-04-11T13:30:00.000+0530",
+  "expirationDate" : "2017-04-13T13:30:00.000+0530",
+  "ruleDescription" : "ui test",
+  "ruleId" : "7756aaaa-c5b8-4d44-a570-6983a16d6052",
+  "ruleName" : "UI_test_1",
+  "salience" : 5,
   "templateDescription" : "Standard Rule Template",
   "templateId" : "1729393753546744775",
   "templateName" : "DefaultStandardRuleTemplate"
