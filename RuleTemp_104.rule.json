@@ -9,7 +9,7 @@
   "effectiveDate" : "2017-04-11T13:30:00.000+0530",
   "expirationDate" : "2017-04-13T13:30:00.000+0530",
   "ruleDescription" : "ui test",
-  "ruleId" : "c4bd3f9c-9558-46be-8430-2ea2f512fb0b",
+  "ruleId" : "ce10b612-1718-4fd2-8bde-dab161d0b00f",
   "ruleName" : "UI_test_1",
   "salience" : 5,
   "templateDescription" : "Standard Rule Template",
